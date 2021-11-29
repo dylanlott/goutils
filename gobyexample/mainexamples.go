@@ -61,5 +61,5 @@ func main() {
 	fmt.Println(int64(d1))
 
 	fmt.Println(math.Sin(n))
-
+	fmt.Println("branch merge test")
 }
