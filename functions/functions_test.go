@@ -25,7 +25,7 @@ func TestMultiply(t *testing.T) {
 }
 func TestSubtract(t *testing.T) {
 	got := subtract(10, 5)
-	if !reflect.DeepEqual(got, 2) {
+	if !reflect.DeepEqual(got, 5) {
 		t.Fail()
 	}
 }
