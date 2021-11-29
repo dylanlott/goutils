@@ -1,5 +1,7 @@
 package functions
 
+import "fmt"
+
 // addtwo should take two arguments and return their sum
 func addtwo(a, b int) int {
 	return a + b
@@ -22,5 +24,7 @@ func subtract(a, b int) int {
 
 // divide should take two arguments and return their division
 func divide(a, b int) int {
+	fmt.Println("dylan")
 	return a / b
+
 }
