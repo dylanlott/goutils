@@ -62,4 +62,5 @@ func main() {
 
 	fmt.Println(math.Sin(n))
 	fmt.Println("branch merge test")
+	fmt.Println("git exercise")
 }
