@@ -46,4 +46,7 @@ func main() {
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
+	// Passed test in playground, dont really understand what "Switch" is doing.
+	// Originally messed us by not capitalizing Println as well as did a / instead of a \ and it took me forever to find haha.
+
 }
