@@ -13,8 +13,8 @@ func main() {
 
 	fmt.Println("len:", len(a))
 
-	b := [5]int{1, 2, 3, 4, 5}
-	fmt.Println("dcl:", b)
+	q := [5]int{1, 2, 3, 4, 5}
+	fmt.Println("dcl:", q)
 
 	var twoD [2][3]int
 	for i := 0; i < 2; i++ {
@@ -23,6 +23,8 @@ func main() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+
+	fmt.Println()
 
 	var b [14]string
 	b[0] = "f"
@@ -40,5 +42,5 @@ func main() {
 	b[12] = "i"
 	b[13] = "t"
 	fmt.Println(b)
-
+	//arrays examples went really well and I feel like i understood it. test passed in playground.
 }
