@@ -25,6 +25,7 @@ func subtract(a, b int) int {
 // divide should take two arguments and return their division
 func divide(a, b int) int {
 	fmt.Println("dylan")
+	fmt.Println("branch merg test")
 	return a / b
 
 }
