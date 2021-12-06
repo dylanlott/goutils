@@ -1,5 +1,30 @@
 package main
 
-// TODO: Declare a struct that will represent a Car
+import (
+	"errors"
+	"fmt"
+)
 
-// TODO: Declare a function that will return a new Car
+func fizz() error {
+	return errors.New("FUCK")
+}
+
+func main() {
+	var f string = "foo"
+	fmt.Printf("f is ", f)
+	var bar = func(foo string) error {
+		fmt.Printf("bar says: %s", foo)
+		return nil
+	}
+	bar("sup")
+	fizz()
+}
+
+type Car struct {
+	Make  string
+	Model string
+}
+
+func New() *Car {
+	return &Car{}
+}
