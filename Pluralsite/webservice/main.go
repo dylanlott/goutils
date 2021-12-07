@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/dylanlott/goutils/models"
+	"github.com/dylanlott/goutils/Pluralsite/webservice/models"
 )
 
 func main() {
-	u := models.User{
+	u := models.Users{
 		ID:        2,
 		FirstName: "Tricia",
 		LastName:  "McMillan",
