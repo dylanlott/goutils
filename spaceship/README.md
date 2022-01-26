@@ -19,12 +19,16 @@ logic at build time.
 * They are good practice for top level packages
 that you want to expose to the end user.
 
-## Spec 2: Add lights to the ship.
-## Spec 3: Add the main engine
-## Spec 4: Make the ship move.
-## Spec 5: Build the crew communications system.
-## Spec 6: Create a docking system
-## Spec 7: Build the weapons system.
-## Spec 8: Modify communications to talk to groud control.
-## Spec 9: Build the ship manifest manager
-## Spec 10: Allow the ship to navigate on any set of geocoordinates.
+Get your TestNew function running and passing tests and then work on the rest.
+
+## Spec 2: ID system
+- [ ] Write a function that returns the ship's ID
+## Spec 3: Engine 
+- [ ] Add a throttle to the engine
+- [ ] Add a fuel gauge
+- [ ] Add the ability to land
+## Spec 4: Build the crew communications system.
+## Spec 5: Build the weapons system.
+- [ ] Add a messages channel
+## Spec : Create an inventory system
+- [ ] Write the inventory interface
